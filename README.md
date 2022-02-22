@@ -10,7 +10,9 @@ I took the time out to create a Kubernetes cluster using terraform for the infra
 
 * initialize the tf script
 > `terraform init`
-* 
+
+* Create the exceution plan.
+* It allows us to see the changes that will be made to the infrastructure
 > `terraform plan`
 
 * Apply the config 
