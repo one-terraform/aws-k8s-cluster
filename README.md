@@ -19,7 +19,7 @@ I took the time out to create a Kubernetes cluster using terraform for the infra
 * we can use -auto-approve to auto confirm the yes step (though not recommended)
 > `terraform apply`
 
-### When finished, all that is left to do is to tear down the work area
+### When finished, all that is left to do is to tear down the work area WHEN WORK COMPLETED
 
 * we can use -auto-approve as well to auto confirm the yes step
 > `terraform destroy`
