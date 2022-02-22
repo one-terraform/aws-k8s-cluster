@@ -8,9 +8,9 @@ I took the time out to create a Kubernetes cluster using terraform for the infra
 
 All that is needed now is to create the token on the Manager and copy and run on the Workers
 
-sudo kubeadm token create --print-join-command
+`sudo kubeadm token create --print-join-command`
 
 ### Verify on the Worker Nodes
-kubectl get nodes
+`kubectl get nodes`
 
-kubectl get pods
+`kubectl get pods`
