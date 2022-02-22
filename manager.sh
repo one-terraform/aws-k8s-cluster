@@ -68,7 +68,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown -R $(id -u):$(id -g) $HOME/.kube/config
 
 #Verify kubectl running
-kubectl get pods -o wide -n kube-system 2> dev/null
+kubectl get pods -o wide -n kube-system 2> /dev/null
 
 if [ $? -ne 0 ]
 then 
