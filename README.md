@@ -38,4 +38,5 @@ All that is needed now is to create the token on the Manager and copy and run on
 
 `kubectl get pods`
 
+## Screenshot of the result
 ![Aws](Screenshot_20220221_140630.png)
